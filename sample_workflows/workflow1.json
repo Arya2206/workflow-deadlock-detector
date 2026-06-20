@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    "Start",
+    "Manager Approval",
+    "Finance Approval",
+    "End"
+  ],
+  "edges": [
+    ["Start", "Manager Approval"],
+    ["Manager Approval", "Finance Approval"],
+    ["Finance Approval", "End"]
+  ]
+}
